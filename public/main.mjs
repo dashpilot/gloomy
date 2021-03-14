@@ -9,8 +9,6 @@ const template = `
 
 <h1>Vue 3 and Fetch Example</h1>
 
-
-
 <ul v-if="!loading && data && data.length">
 {{data.blog[0].content}}
   <li v-for="post in data.blog">
