@@ -2,7 +2,6 @@ const matter = require('gray-matter');
 const marked = require('marked');
 const fs = require('fs');
 
-
 // below is for rendering data from markdown
 const blogFolder = './posts/blog/';
 
