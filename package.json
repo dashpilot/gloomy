@@ -1,0 +1,25 @@
+{
+  "name": "site-filmkit",
+  "version": "1.0.0",
+  "description": "This is some **Markdown** text",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashpilot/site-filmkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashpilot/site-filmkit/issues"
+  },
+  "homepage": "https://github.com/dashpilot/site-filmkit#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "handlebars": "^4.7.6",
+    "marked": "^2.0.0"
+  }
+}
