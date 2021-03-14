@@ -1,29 +1,39 @@
 {
-  "entries": [{
-    "id": "1",
-    "title": "Hello World",
-    "body": "Lorem ipsum dolor site amet"
-  }, {
-    "id": "2",
-    "title": "Second Post",
-    "body": "Lorem ipsum dolor site amet"
-  }, {
-    "id": "3",
-    "title": "Third post",
-    "body": "Lorem ipsum dolor site amet"
+  "artists": [{
+    "content": "\nDaryll-Ann was a Dutch rock band stemming from Ermelo, Netherlands. Between 1992 and 2004 the band released six studio albums, plus one live album. Daryll-Ann was the first signing of Dutch label Excelsior Recordings.\n",
+    "data": {
+      "title": "Daryll-ann"
+    },
+    "isEmpty": false,
+    "excerpt": "",
+    "path": "./posts/artists/210414_daryll-ann.md",
+    "id": "210414_daryll-ann.md",
+    "title": "Daryll-ann",
+    "body": "<p>Daryll-Ann was a Dutch rock band stemming from Ermelo, Netherlands. Between 1992 and 2004 the band released six studio albums, plus one live album. Daryll-Ann was the first signing of Dutch label Excelsior Recordings.</p>\n"
   }],
-  "pages": [{
-    "id": "1",
-    "title": "Home",
-    "slug": "home"
+  "blog": [{
+    "content": "\nHello folks\n",
+    "data": {
+      "title": "This is another post",
+      "summary": "This is a summary"
+    },
+    "isEmpty": false,
+    "excerpt": "",
+    "path": "./posts/blog/210210_another-post.md",
+    "id": "210210_another-post.md",
+    "title": "This is another post",
+    "body": "<p>Hello folks</p>\n"
   }, {
-    "id": "2",
-    "title": "About",
-    "slug": "about"
-  }, {
-    "id": "3",
-    "title": "Contact",
-    "slug": "contact",
-    "layout": "page"
+    "content": "\nThis is some body text\n",
+    "data": {
+      "title": "This is my second post",
+      "summary": "Hello folks"
+    },
+    "isEmpty": false,
+    "excerpt": "",
+    "path": "./posts/blog/210414_my-post.md",
+    "id": "210414_my-post.md",
+    "title": "This is my second post",
+    "body": "<p>This is some body text</p>\n"
   }]
 }
